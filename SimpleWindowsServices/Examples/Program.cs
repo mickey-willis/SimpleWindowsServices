@@ -21,9 +21,9 @@ namespace Examples
             IList<WindowsService> services =
                 new List<WindowsService>()
                 {
-                    //new ExampleWindowsService(),
+                    new ExampleWindowsService(),
                     new ExampleSynchronousWindowsService(),
-                    //new ExampleAsynchronousWindowsService()
+                    new ExampleAsynchronousWindowsService()
                 };
 
             ServiceCollection serivceCollection = new ServiceCollection(services);
